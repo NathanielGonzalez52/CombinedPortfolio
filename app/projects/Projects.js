@@ -55,7 +55,7 @@ export default function Projects() {
           <div className="react-slider">
             <div className = "slider-shape">
               <Slider {...settings}>
-                <div>
+                <div className="pic-slide">
                   <Image 
                     className="pic"
                     src={"/images/SenorTaco_1.png"}
@@ -63,7 +63,7 @@ export default function Projects() {
                     width={1000}
                     height={380}
                   />
-                  <Link className="visit" href="./senortaco" className="visit">Visit Me!</Link>
+                  <Link className="visit" href="./senortaco">Visit Me!</Link>
                 </div>
                 <div>
                   <Image 
@@ -73,8 +73,8 @@ export default function Projects() {
                     width={800}
                     height={380}
                     />
+                  <Link className="visit" href="./senor2taco">Visit Me!</Link>
                 </div>
-                  {/* <Link href="./senor2taco" className="visit"></Link> */}
                 <div>
                   <Image 
                     className="pic"
@@ -83,7 +83,7 @@ export default function Projects() {
                     width={800}
                     height={380}
                   />
-                  {/* <Link href="./luna" className="visit"></Link> */}
+                  <Link className="visit" href="./luna">Visit Me!</Link>
               </div>
               </Slider>
             </div>

@@ -33,15 +33,19 @@
     background-image: var(--background_image);
 }
 
+.pic-slide {
+    padding-bottom: 0.5rem;
+}
+
 .visit {
-    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .pic {
     max-width: 100%;
     cursor: pointer;
+    padding-bottom: 0.8rem;
 }
-
 
 @media screen and (min-width:700px) {
 
