@@ -2,11 +2,11 @@
 
 import "./welcome.css"
 import React, { useState, useEffect } from 'react';
-import Type from "./typing";
+import Type from "./Typing";
 import Fade from "react-reveal/Fade";
-import Footer from "./footer";
-import {dark as DarkMode} from "./dark.js";
-import Toggle from "./toggle";
+import Footer from "./Footer";
+import {dark as DarkMode} from "./Dark.js";
+import Toggle from "./Toggle";
 
 export default function Welcome() {
 

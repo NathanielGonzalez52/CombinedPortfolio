@@ -1,16 +1,15 @@
 "use client";
-
 import React, { useContext, Component } from 'react';
 import "./projects.css";
-import { ThemeContext } from '../dark';
-import Toggle from "../toggle";
+import { ThemeContext } from '../Dark';
+import Toggle from "../Toggle";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects() {
-
-
 
   var settings = {
       dots: true,
@@ -57,13 +56,34 @@ export default function Projects() {
               <div className = "slider-shape">
                 <Slider {...settings}>
                   <div>
-                    <img className="pic" alt="art" src="../../images/SenorTaco_1.png"></img>
+                    <Image 
+                      className="pic"
+                      src={"/../../images/SenorTaco_1.png"}
+                      alt="envelope"
+                      width={1000}
+                      height={380}
+                    />
+                    {/* <Link className="visit"></Link> */}
                   </div>
                   <div>
-                    <img className="pic" alt="art" src="../../images/SenorTaco_2.png"></img>
-                  </div>
-                  <div>
-                    <img className="pic" alt="art" src="../../images/Luna.png"></img>
+                    <Image 
+                      className="pic"
+                      src={"/../../images/SenorTaco_2.png"}
+                      alt="art"
+                      width={800}
+                      height={380}
+                      />
+                    </div>
+                    {/* <Link className="visit"></Link> */}
+                    <div>
+                    <Image 
+                      className="pic"
+                      src={"/../../images/Luna.png"}
+                      alt="envelope"
+                      width={800}
+                      height={380}
+                    />
+                    {/* <Link className="visit"></Link> */}
                   </div>
                 </Slider>
               </div>

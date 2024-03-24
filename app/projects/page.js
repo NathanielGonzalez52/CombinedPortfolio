@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from "../navbar";
-import Footer from "../footer";
-import {Dark as DarkVariable} from "../dark";
-import Projects from "./projects";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import {Dark as DarkVariable} from "../Dark";
+import Projects from "./Projects";
 
 
 export default function Home() {

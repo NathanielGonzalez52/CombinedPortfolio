@@ -1,6 +1,6 @@
 import React from 'react'
 import "./footer.css";
-import DarkMode from "./dark.js";
+import DarkMode from "./Dark.js";
 
 export default function footer() {
 

@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useContext } from 'react'
-import Navbar from "../navbar";
+import Navbar from "../Navbar";
 import Fade from "react-reveal/Fade";
-import Footer from "../footer";
-import {Dark as DarkVariable} from "../dark";
-import Toggle from '../toggle';
-import Contact from "./contact";
+import Footer from "../Footer";
+import {Dark as DarkVariable} from "../Dark";
+import Toggle from '../Toggle';
+import Contact from "./Contact";
 
 export default function Home() {
 

@@ -1,8 +1,9 @@
 import React, { useContext, useRef, useState } from 'react';
-import { ThemeContext } from '../dark';
+import { ThemeContext } from '../Dark';
 import "./contact.css";
-import Toggle from '../toggle';
+import Toggle from '../Toggle';
 import emailjs from '@emailjs/browser';
+import Image from "next/image";
 
 export default function Contact() {
 
@@ -30,9 +31,9 @@ export default function Contact() {
 
     const {selectedTheme, toggleTheme} = useContext(ThemeContext);
 
-    const light = "../../images/mail.png";
+    const light = "/../../images/mail.png";
 
-    const night = "../../images/mail_white.png";
+    const night = "/../../images/mail_white.png";
 
 
   return (
@@ -41,7 +42,13 @@ export default function Contact() {
         <Toggle />
         <div className = "contact">
             <div className="envelope">
-                <img className="mail" src={selectedTheme==="dark" ? night : light}></img>
+              <Image 
+                className="mail"
+                src={selectedTheme==="dark" ? night : light}
+                alt="envelope"
+                width={200}
+                height={140}
+              />
             </div>
             <div className="contact-details">
                     <h1 className="head">Have An Idea?</h1>
