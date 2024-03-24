@@ -4,7 +4,6 @@ import React from 'react';
 import "./Deliver.css";
 import {Fade} from "react-awesome-reveal";
 
-
 export default function Deliver() {
   return (
     <Fade direction={"right"} triggerOnce={true} duration={1100}>

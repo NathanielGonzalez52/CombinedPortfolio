@@ -42,7 +42,7 @@
 
 
 .eats {
-    background: url("../public/images/eats.png") no-repeat;
+    background: url("../../public/senortaco_images/eats.png") no-repeat;
     background-size: 73%;
     background-position: center;
     transition: 0.4s ease;
@@ -56,7 +56,7 @@
 }
 
 .post {
-    background: url("../public/images/postmates.png") no-repeat;
+    background: url("../../public/senortaco_images/postmates.png") no-repeat;
     background-size: 100%;
     background-position: center;
     transition: 0.4s ease;
@@ -71,7 +71,7 @@
 }
 
 .grub {
-    background: url("../public/images/grub.png") no-repeat;
+    background: url("../../public/senortaco_images/grub.png") no-repeat;
     background-size: 85%;
     background-position: center;
     transition: 0.4s ease;
@@ -86,7 +86,7 @@
 }
 
 .dash {
-    background: url("../public/images/door-dash.png") no-repeat;
+    background: url("../../public/senortaco_images/door-dash.png") no-repeat;
     background-size: 90%;
     background-position: center;
     transition: 0.4s ease;

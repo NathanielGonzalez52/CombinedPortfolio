@@ -34,9 +34,9 @@ export default function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const light = "/../images/NG-3.png";
+  const light = "/images/NG-3.png";
 
-  const night = "/../images/NG_night_2.png"
+  const night = "/images/NG_night_2.png";
 
   return (
     <>

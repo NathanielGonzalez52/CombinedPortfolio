@@ -1,9 +1,9 @@
 "use client";
-
 import "./welcome.css"
 import React, { useState, useEffect } from 'react';
 import Type from "./Typing";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 import Footer from "./Footer";
 import {dark as DarkMode} from "./Dark.js";
 import Toggle from "./Toggle";
@@ -25,7 +25,7 @@ export default function Welcome() {
       <Toggle />
       <div className="landing">
         <Type />
-        <Fade delay={6800} duration={1500}>
+        <Fade triggerOnce={true} delay={6800} duration={1500}>
           <a href="/projects"><button className="projects-btn">Projects</button></a>
         </Fade>
           </div>

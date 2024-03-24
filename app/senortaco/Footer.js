@@ -11,7 +11,7 @@ export default function Footer() {
     <div className="footer">
       <Image
       className="logo-footer"
-        src={"/../images/senor_taco.png"}
+        src={"/senortaco_images/senor_taco.png"}
         alt="logo"
         width={150}
         height={130}

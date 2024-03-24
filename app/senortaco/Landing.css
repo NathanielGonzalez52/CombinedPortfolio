@@ -10,7 +10,7 @@ html {
     padding-top: 4.5rem;
     height: 36.7rem;
     background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), 
-    url("../public/images/bg_image_2.png") no-repeat, url("../public/images/insta fries.jpg");
+    url("../../public/senortaco_images/bg_image_2.png") no-repeat, url("../../public/senortaco_images/insta fries.jpg");
     background-size: 100%;
     padding-bottom: 2rem;
 }
@@ -106,7 +106,7 @@ a:hover {
     
     .box {
     background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), 
-    url("../public/images/bg_image_2.png") center no-repeat;
+    url("../../public/senortaco_images/bg_image_2.png") center no-repeat;
     background-size: 100%;
 }
 

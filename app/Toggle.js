@@ -1,5 +1,4 @@
 "use client";
-
 import {React, useContext} from 'react';
 import "./Toggle.css"
 import { ThemeContext } from './Dark';

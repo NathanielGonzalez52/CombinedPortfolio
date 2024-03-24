@@ -12,7 +12,7 @@ function Menu() {
       <div id="menu">
         <Image
         className="menu-page"
-        src={"/../images/1.png"}
+        src={"/senortaco_images/1.png"}
         alt="menu"
         width={500}
         height={600}

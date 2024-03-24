@@ -3,7 +3,6 @@ import { TypeAnimation } from 'react-type-animation';
 import "./typing.css";
 import { useEffect, useState} from 'react';
 
-
 const ExampleComponent = () => {
 
   const [timer, setTimer] = useState(false);

@@ -1,8 +1,7 @@
 "use client";
-
 import React, { useContext } from 'react'
 import Navbar from "../Navbar";
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 import Footer from "../Footer";
 import {Dark as DarkVariable} from "../Dark";
 import Toggle from '../Toggle';
@@ -14,7 +13,7 @@ export default function Home() {
     <>
     <DarkVariable>
         <Navbar />
-        <Fade duration={1500}>
+        <Fade triggerOnce={true} duration={1500}>
             <Contact />
         </Fade>
         <Footer />

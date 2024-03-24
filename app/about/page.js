@@ -1,10 +1,9 @@
 "use client";
-
 import React from 'react'
 import Navbar from "../navbar";
 import "./page.css";
 import Footer from "../footer";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 import {Dark as DarkVariable} from "../dark";
 import Toggle from '../toggle';
 
@@ -14,7 +13,7 @@ export default function About() {
     <>
     <DarkVariable>
         <Navbar />
-        <Fade>
+        <Fade triggerOnce={true}>
         <div className="total-about">
         <Toggle />
             <div className="about txt">

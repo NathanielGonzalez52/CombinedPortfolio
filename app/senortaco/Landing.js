@@ -19,8 +19,8 @@ export default function Landing() {
         <div className = "logo-box">
           <Image
           className="logo"
-          src={"/../images/senor_taco.png"}
-          alt={"No work"}
+          src={"/senortaco_images/senor_taco.png"}
+          alt={"company logo"}
           width={180}
           height={260}
           />

@@ -33,6 +33,10 @@
     background-image: var(--background_image);
 }
 
+.visit {
+    margin-top: 2rem;
+}
+
 .pic {
     max-width: 100%;
     cursor: pointer;
