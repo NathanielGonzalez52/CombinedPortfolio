@@ -63,7 +63,7 @@ export default function Projects() {
                     width={1000}
                     height={380}
                   />
-                  <Link className="visit" href="./senortaco">Visit Me!</Link>
+                  <Link className="visit" href="./senor2taco">Visit Me!</Link>
                 </div>
                 <div>
                   <Image 
@@ -73,7 +73,7 @@ export default function Projects() {
                     width={800}
                     height={380}
                     />
-                  <Link className="visit" href="./senor2taco">Visit Me!</Link>
+                  <Link className="visit" href="./senortaco">Visit Me!</Link>
                 </div>
                 <div>
                   <Image 

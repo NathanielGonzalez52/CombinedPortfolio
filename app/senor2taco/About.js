@@ -22,13 +22,13 @@ function About() {
       <div className="pics">
         <Image
           className="food one"
-          src={"/../../images/taco.jpg"}
+          src={"/senor2taco_images/taco.jpg"}
           alt="taco"
           width={200}
           height={120} />
         <Image 
           className="food two"
-          src={"/../../images/fries.jpg"}
+          src={"/senor2taco_images/fries.jpg"}
           alt="fries"
           width={200}
           height={180}/>

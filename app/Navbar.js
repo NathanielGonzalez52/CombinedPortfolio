@@ -2,7 +2,7 @@
 import { useRouter } from 'next/navigation'
 import React, {useEffect, useState, useContext} from 'react';
 import Link from "next/link";
-import "./navbar.css";
+import "./Navbar.css";
 import { useActivePath } from "./Helper";
 import { ThemeContext } from './Dark';
 import Image from "next/image";

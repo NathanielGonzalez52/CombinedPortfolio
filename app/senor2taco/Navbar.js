@@ -36,7 +36,7 @@ export default function Navbar() {
             <a className="logo-link" href="/">
               <Image
             className="logo"
-            src={"/../../images/senor_taco.png"}
+            src={"/senor2taco_images/senor_taco.png"}
             alt="senor taco logo"
             width={900}
             height={100} />

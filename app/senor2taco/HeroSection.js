@@ -29,7 +29,7 @@ export default function page() {
               <div className="pic-container">
               <Image
           className="pic"
-          src={"/../../images/chilaquiles_6_8.jpg"}
+          src={"/senor2taco_images/chilaquiles_6_8.jpg"}
           alt="taco"
           width={2000}
           height={390} />
@@ -37,7 +37,7 @@ export default function page() {
               <div className="pic-container">
               <Image
           className="pic"
-          src={"/../../images/quesa_6_8.jpg"}
+          src={"/senor2taco_images/quesa_6_8.jpg"}
           alt="quesadilla"
           width={2000}
           height={390} />
@@ -45,7 +45,7 @@ export default function page() {
               <div className="pic-container">
               <Image
           className="pic"
-          src={"/../../images/nachos_6_8.jpg"}
+          src={"/senor2taco_images/nachos_6_8.jpg"}
           alt="nachos"
           width={2000}
           height={390} />
@@ -53,7 +53,7 @@ export default function page() {
               <div className="pic-container">
               <Image
           className="pic"
-          src={"/../../images/wet_burrito_6_8.jpg"}
+          src={"/senor2taco_images/wet_burrito_6_8.jpg"}
           alt="burrito"
           width={2000}
           height={390} />

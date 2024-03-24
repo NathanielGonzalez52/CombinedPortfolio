@@ -24,7 +24,6 @@ export default function Landing() {
           width={180}
           height={260}
           />
-          {/* <img className = "logo" src="../images/senor_taco.png" alt="I no work"></img> */}
         </div>
         <div className = "hook">
           <h1>¡HECHO CON SABOR!</h1>
