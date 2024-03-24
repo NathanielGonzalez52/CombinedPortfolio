@@ -1,0 +1,89 @@
+:root {
+  --button_background: #000;
+  --button_text: #FFF;
+  --text_color: #000;
+  --background_color: #FFF;
+  --background_image: url("../public/images/seigaiha.webp");
+}
+
+[data-theme = "dark"] {
+  --button_background: #FFF;
+  --button_text: #000;
+  --text_color: #FFF;
+  --background_color: #000;
+  --background_image: url("../public/images/connectwork.webp");
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    background-image: var(--background_image);
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+
+  .fa-regular {
+    padding-right: 1%;
+    color: rgb(221, 141, 21);
+    font-size: 2rem;
+    z-index: +1;
+  }
+
+  .fa-solid {
+    padding-right: 1%;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    z-index: +1;
+  }
+
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #f0f02c;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #706b6b;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

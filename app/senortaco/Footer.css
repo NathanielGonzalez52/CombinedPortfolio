@@ -1,0 +1,28 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    padding-bottom: 2rem;
+    line-height: 1.0rem;
+    text-align: center;
+}
+
+.head-footer {
+    color: black;
+}
+
+.logo-footer {
+    padding-top: 1.5rem;
+}
+
+.foot-txt{
+    color: gray;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 770px) {
+
+}

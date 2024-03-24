@@ -1,0 +1,130 @@
+.deliver {
+    width: 100%;
+}
+
+.deli-message {
+    color: green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-line {
+    background-color: #000000;
+    width: 15%;
+    margin-top: -1.2rem;
+}
+
+.apps {
+    padding-top: 2rem;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 1.4rem;
+    grid-row-gap: 1.4rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.square {
+    height: 13rem;
+    width: 13rem;
+    border-width: 0.2rem;
+    border-color: #000000;
+    border-style: solid;
+}
+
+
+.eats {
+    background: url("../public/images/eats.png") no-repeat;
+    background-size: 73%;
+    background-position: center;
+    transition: 0.4s ease;
+}
+
+.eats:hover {
+    transition: 0.4s ease;
+    background-color: rgb(161, 3, 3);
+    cursor: pointer;
+    background-size: 83%;
+}
+
+.post {
+    background: url("../public/images/postmates.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.4s ease;
+}
+
+.post:hover {
+    transition: 0.4s ease;
+    background-color: rgb(161, 3, 3);
+    cursor: pointer;
+    background-size: 110%;
+
+}
+
+.grub {
+    background: url("../public/images/grub.png") no-repeat;
+    background-size: 85%;
+    background-position: center;
+    transition: 0.4s ease;
+
+}
+
+.grub:hover {
+    transition: 0.4s ease;
+    background-color: rgb(161, 3, 3);
+    cursor: pointer;
+    background-size: 95%;
+}
+
+.dash {
+    background: url("../public/images/door-dash.png") no-repeat;
+    background-size: 90%;
+    background-position: center;
+    transition: 0.4s ease;
+}
+
+.dash:hover {
+    transition: 0.4s ease;
+    background-color: rgb(161, 3, 3);
+    cursor: pointer;
+    background-size: 100%;
+}
+
+@media screen and (min-width: 770px) {
+
+    .deliver {
+    padding-top: 2.5rem;
+    }
+
+    .deli-message {
+        padding-bottom: 1.5rem;
+    }
+
+    .apps {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .square {
+        height: 15rem;
+        width: 15rem;
+        border-width: 0.2rem;
+        border-color: #000000;
+        border-style: solid;
+    }
+
+
+
+}
+

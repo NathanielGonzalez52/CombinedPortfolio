@@ -1,0 +1,62 @@
+* {
+    transition: all 0.3s ease-in-out;
+  }
+
+:root {
+--button_background: #000;
+--button_text: #FFF;
+--text_color: #000;
+--background_color: #FFF;
+--background_image: url("../../public/images/seigaiha.webp");
+--text_box: #FFF;
+}
+
+[data-theme = "dark"] {
+--button_background: #FFF;
+--button_text: #000;
+--text_color: #FFF;
+--background_color: #000;
+--background_image: url("../../public/images/connectwork.webp");
+--text_box: rgb(196, 185, 185);
+}
+
+.project-header {
+    padding-bottom: 2rem;
+    color: var(--text_color);
+    font-family: 'Oswald', sans-serif;
+}
+
+.slider-cont {
+    text-align: center;
+    max-width: 100%;
+    padding-bottom: 2rem;
+    background-image: var(--background_image);
+}
+
+.pic {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:700px) {
+
+    .center {
+        display: flex;
+        background-color: var(--background_image);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .react-slider {
+        width: 38%;
+    }
+
+    .slider-shape {
+        width: 100%;
+    }
+
+}
+        

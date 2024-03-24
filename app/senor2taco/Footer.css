@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "mexican";
+    src: url("../public/images/fonts/La Tequila Out.ttf");
+  }
+
+.foot {
+    background-color: green;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.header-f {
+  text-align: center;
+    font-size: 1rem;
+    padding-top: 3.5rem;
+    color: #FFF;
+    font-family: "mexican";
+    padding-bottom: 0.5rem;
+}
+
+.theme-f {
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.location {
+   width: 110%;
+   padding-right: 0.7rem
+ }
+  
+.hours {
+   width: 100%;
+ }
+  
+.socials-f {
+   width: 100%;
+   background-color: green;
+
+ }
+  
+.social-pic {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 2.5rem;
+  }
+  
+.socials-f .fa-brands {
+   padding: 5rem 1rem 0rem;
+   color: #FFFFFF;
+  }
+
+.copyright {
+  padding-bottom: 2.5rem;
+  }

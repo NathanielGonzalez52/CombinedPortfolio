@@ -1,0 +1,47 @@
+.embla {
+    overflow: hidden;
+    text-align: center;
+  }
+
+.embla__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.embla__viewport {
+  height: 100%;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.slide-img {
+  background-color: black;
+  height: 50%;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.embla__prev {
+
+}
+
+.embla__next {
+
+}
+
+.review {
+  width: 100%;
+}
+
+.profile-pic {
+  border-radius: 10rem;
+  height: 15%;
+  width: 20%;
+  object-position: 0 0.15rem;
+}

@@ -1,0 +1,77 @@
+* {
+    transition: all 0.3s ease-in-out;
+  }
+
+:root {
+--button_background: #000;
+--button_text: #FFF;
+--text_color: #000;
+--background_color: #FFF;
+--background_image: url("../../public/images/seigaiha.webp");
+}
+
+[data-theme = "dark"] {
+--button_background: #FFF;
+--button_text: #000;
+--text_color: #FFF;
+--background_color: #000;
+--background_image: url("../../public/images/connectwork.webp");
+}
+
+.total-about {
+    background-image: var(--background_image);
+}
+
+.head {
+    font-family: 'Oswald', sans-serif;
+    transition: none;
+}
+
+.txt {
+    font-family: "Cormorant Garand", serif;  
+    color: var(--text_color);
+}
+
+.about {
+    padding: 0rem 1rem;
+    height: 100%;
+    text-align: center;
+}
+
+.about-me {
+    font-size: 2rem;
+} 
+
+.icon {
+    width: 18%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bio {
+    padding: 0.7rem 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+@media screen and (min-width:700px) {
+
+    .about {
+        padding: 0rem 3rem;
+        text-align: center;
+    }
+
+    .bio {
+        padding: 1rem 15rem;
+        font-weight: bold;
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+}

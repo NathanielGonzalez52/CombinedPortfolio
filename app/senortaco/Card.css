@@ -1,0 +1,26 @@
+.card {
+    border-radius: 0.5rem;
+    background-color: #2ab335;
+    color: #FFFFFF;
+    width: 85%;
+    margin: auto auto auto auto;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.name {
+    font-size: 1rem;
+}
+
+.circle-img {
+    border-radius: 15rem;
+}
+
+.review {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.bottom {
+    background-color: #39a342;
+}

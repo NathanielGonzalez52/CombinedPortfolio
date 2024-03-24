@@ -1,0 +1,139 @@
+* {
+    transition: all 0.3s ease-in-out;
+  }
+
+:root {
+--button_background: #000;
+--button_text: #FFF;
+--text_color: #000;
+--background_color: #FFF;
+--background_image: url("../../public/images/seigaiha.webp");
+--text_box: #FFF;
+}
+
+[data-theme = "dark"] {
+--button_background: #FFF;
+--button_text: #000;
+--text_color: #FFF;
+--background_color: #000;
+--background_image: url("../../public/images/connectwork.webp");
+--text_box: rgb(196, 185, 185);
+}
+
+.total-contact {
+    background-image: var(--background_image);
+}
+
+.head {
+    font-family: 'Oswald', sans-serif;
+    color: var(--text_color)
+}
+
+.envelope {
+    text-align: center;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 0.7rem;
+ }
+
+.contact-details {
+    height: 60.6vh;
+    text-align: center;
+    font-family: "Cormorant Garand", serif;  
+    color: var(--text_color);
+
+}
+
+.detail {
+    padding-top: 0.5rem;
+    transition: none;
+
+}
+
+.mail {
+    width: 30%;
+    position: relative;
+}
+
+.contact-me {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem; 
+}
+
+.name {
+    background-color: var(--text_box);
+    border-width: 1px;
+}
+
+label {
+    color: var(--text_color)
+}
+
+#frm-email {
+    width: 17rem;
+    font-size: 1.1rem;
+    font-family: "Cormorant Garand", serif;  
+    background-color: var(--text_box);
+    border-width: 1px;
+}
+
+#freeform {
+    font-size: 1.2rem;
+    font-family: "Cormorant Garand", serif;  
+    background-color: var(--text_box);
+}
+
+.send-button {
+    padding-top: 1.3rem;
+}
+
+.send {
+	background: var(--button_background);
+	border-radius: 25px;
+	display: inline-block;
+	cursor: pointer;
+	color: var(--button_text);
+	font-family: "Cormorant Garand", serif;
+	font-size: 1.3rem;
+	padding: 9px 23px;
+	text-decoration: none;
+    transition: 0.5s;
+}
+.send:hover {
+	background: var(--background_color);
+    transition: 0.5s;
+    color: var(--text_color);
+}
+.send:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen and (min-width:700px) {
+    .contact-details {
+        height: 50vh;
+        padding: 0.5rem;
+        text-align: center;
+        font-family: "Cormorant Garand", serif;  
+        width: 100%;
+    }
+    
+    .envelope {
+        width: 100%;
+     }
+    
+    .mail {
+        width: 11%;
+        position: relative;
+    }
+    
+    .detail {
+        padding: 0.65rem;
+    }
+    
+}
+        

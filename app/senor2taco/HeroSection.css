@@ -1,0 +1,47 @@
+.slider-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.slider {
+    margin-top: 0.1%;
+    width: 80%;
+}
+
+.pic-container {
+    max-height: 100rem;
+}
+
+.pic {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    .slider {
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (min-width:900px) {
+    .slider-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #000;
+    }
+
+    .slider {
+        margin-top: 0.1%;
+        width: 25%;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}

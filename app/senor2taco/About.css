@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "mexican";
+    src: url(../public/images/fonts/La\ Tequila.ttf);
+}
+
+.welcome {
+    padding-left: 3%;
+    font-family: "mexican";
+    color: red;
+    font-size: 1rem;
+}
+
+.about {
+    display: flex;
+    padding-bottom: 0px;
+    height: 28rem;
+}
+
+.about-text {
+    padding-top: 0.75rem;
+    padding-left: 3%;
+    font-family: "mexican";
+}
+
+.intro {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 205%;
+    font-size: 1.04rem;
+    color: green;
+}
+
+.pics {
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+}
+
+.food {
+    padding-top: 2px;
+    /* width: 100%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.three {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 700px) {
+    
+    .three {
+      visibility: visible;
+    }
+
+    .about {
+        display: block;
+        height: 100%;
+    }
+
+    .about-text {
+        overflow: hidden;
+        padding-bottom: 0rem;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+        padding-right: 8%;
+    }
+
+    .food {
+        /* height: 22.5rem; */
+        /* width: 40%; */
+        /* width: 100%; */
+        width: 20rem;
+        height: 13.33333rem;
+        padding: 0.2rem;
+        margin: 0rem 6rem 0rem 6rem;
+    }
+
+    .one {
+        object-fit: cover;
+    }
+
+
+}

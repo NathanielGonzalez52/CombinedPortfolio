@@ -1,0 +1,53 @@
+:root {
+    --button_background: #000;
+    --button_text: #FFF;
+    --text_color: #000;
+    --background_color: #FFF;
+  }
+  
+  [data-theme = "dark"] {
+    --button_background: #FFF;
+    --button_text: #000;
+    --text_color: #FFF;
+    --background_color: #000;
+  }
+  
+
+.footer {
+    background-color: var(--background_color);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.logo-footer {
+    width: 30%;
+    color: var(--background_color);
+}
+
+.fa-solid {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.logo-f {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.github {
+}
+
+.fa-brands {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--text_color);
+}
+
+.copyright {
+    color: var(--text_color);
+    padding: 1.4rem;
+}

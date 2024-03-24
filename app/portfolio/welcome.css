@@ -1,0 +1,56 @@
+:root {
+  --button_background: #000;
+  --button_text: #FFF;
+  --text_color: #000;
+  --background_color: #FFF;
+  --background_image: url("../public/images/seigaiha.webp");
+}
+
+[data-theme = "dark"] {
+  --button_background: #FFF;
+  --button_text: #000;
+  --text_color: #FFF;
+  --background_color: #000;
+  --background_image: url("../public/images/connectwork.webp");
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.total {
+  background-image: var(--background_image);
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    row-gap: 1rem;
+}
+
+  .projects-btn {
+    background: var(--button_background);
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: var(--button_text);
+    font-family: "Cormorant Garand", serif;
+    font-size: 1.3rem;
+    padding: 9px 23px;
+    text-decoration: none;
+      transition: 0.5s;
+  }
+  .projects-btn:hover {
+    background: var(--background_color);
+    transition: 0.5s;
+    color: var(--text_color);
+  }
+  .projects-btn:active {
+    position:relative;
+    top:1px;
+  }

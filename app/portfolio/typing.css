@@ -1,0 +1,20 @@
+:root {
+    --button_background: #000;
+    --button_text: #FFF;
+    --text_color: #000;
+    --background_color: #FFF;
+  }
+  
+  [data-theme = "dark"] {
+    --button_background: #000;
+    --button_text: #FFF;
+    --text_color: #000;
+    --background_color: #FFF;
+  }
+
+.typing {
+    color: var(--text_color);
+    font-family: "Cormorant Garand", serif;
+    animation-delay: 2000s;
+    text-align: center;
+}
