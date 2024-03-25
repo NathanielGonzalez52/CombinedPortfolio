@@ -1,0 +1,192 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #1e1e1e;
+  min-height: 100vh;
+  display: flex;
+  color: rgb(243, 241, 239);
+  justify-content: center;
+  align-items: center;
+} */
+
+.contact-wel {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.8rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  font-family: "Dancing Script", cursive;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 30px;
+  /* box-shadow: 0 54px 55px rgb(78 78 78 / 25%), 0 -12px 30px rgb(78 78 78 / 25%),
+    0 4px 6px rgb(78 78 78 / 25%), 0 12px 13px rgb(78 78 78 / 25%),
+    0 -3px 5px rgb(78 78 78 / 25%); */
+}
+
+.container input {
+  font-size: 1rem;
+  margin: 10px 0 10px 0px;
+  border-color: rgb(31, 28, 28);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e8f0fe;
+}
+
+.container textarea {
+  margin: 10px 0 10px 0px;
+  padding: 5px;
+  border-color: rgb(31, 28, 28);
+  border-radius: 5px;
+  background-color: #e8f0fe;
+  font-size: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.name div {
+  display: flex;
+  flex-direction: column;
+}
+
+.block button {
+  /* padding: 10px;
+  font-size: 20px;
+  width: 30%;
+  border: 3px solid black;
+  border-radius: 5px; */
+}
+
+.sign-up {
+  transition: 0.5s;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+/* new stuff */
+  background-color:#fcfc00;
+  border-radius:28px;
+  border:1px solid #566963;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-size: 97%;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2b665e;
+  position:relative;
+  top:1px;
+}
+
+/* .to-cart {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+} */
+
+
+.sign-up:active {
+  transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+}
+
+.sign-up:hover {
+  transition:0.5s;
+  background-color:#e0e094;
+}
+
+/* .myButton {
+	background-color:#fcfc00;
+	border-radius:28px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.myButton:hover {
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} */
+
+        
+
+textarea {
+  resize: none;
+}
+
+@media screen and (min-width:700px) {
+
+  .container {
+    padding-top: 1.5rem;
+  }
+
+  .contact-wel {
+    font-size: 2.0rem;
+  }
+
+  .block {
+    font-size: 1.1rem;
+    padding: 1rem 0rem;
+  }
+
+  .container input {
+    font-size: 1.5rem;
+    /* margin: 10px 0 10px 0px;
+    border-color: rgb(31, 28, 28);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8f0fe; */
+  }
+
+  
+  
+  /* .container textarea {
+    margin: 10px 0 10px 0px;
+    padding: 5px;
+    border-color: rgb(31, 28, 28);
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    font-size: 40px;
+  } */
+}

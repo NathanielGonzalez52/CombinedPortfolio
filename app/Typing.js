@@ -1,6 +1,6 @@
 
 import { TypeAnimation } from 'react-type-animation';
-import "./typing.css";
+import "./Typing.css";
 import { useEffect, useState} from 'react';
 
 const ExampleComponent = () => {

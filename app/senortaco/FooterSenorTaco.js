@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Footer.css";
+import "./FooterSenorTaco.css";
 import Image from "next/image";
 
 export default function Footer() {
@@ -21,7 +21,6 @@ export default function Footer() {
       <p className="tele-footer foot-txt">(714) 828-8650</p>
       <p className="copyright foot-txt">© {date.getFullYear()} Senor Taco</p>
     </div>
-
     </>
   )
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import "./Food.css";
+ import React from 'react';
+import "./FoodSenor2Taco.css";
 import Image from 'next/image';
 
 export default function Food() {
@@ -7,97 +7,97 @@ export default function Food() {
     <div className = "menu-container">
       <Image 
           className="menu"
-          src={"/../../images/1.png"}
+          src={"/senor2taco_images/1.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/2.png"}
+          src={"/senor2taco_images/2.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/3.png"}
+          src={"/senor2taco_images/3.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/4.png"}
+          src={"/senor2taco_images/4.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/5.png"}
+          src={"/senor2taco_images/5.png"}
           alt="menu"
           width={1000}
           height={1100}/>
        <Image 
           className="menu"
-          src={"/../../images/6.png"}
+          src={"/senor2taco_images/6.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/7.png"}
+          src={"/senor2taco_images/7.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/8.png"}
+          src={"/senor2taco_images/8.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/9.png"}
+          src={"/senor2taco_images/9.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/10.png"}
+          src={"/senor2taco_images/10.png"}
           alt="menu"
           width={1000}
           height={1100}/>
        <Image 
           className="menu"
-          src={"/../../images/11.png"}
+          src={"/senor2taco_images/11.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/12.png"}
+          src={"/senor2taco_images/12.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/13.png"}
+          src={"/senor2taco_images/13.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/14.png"}
+          src={"/senor2taco_images/14.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/15.png"}
+          src={"/senor2taco_images/15.png"}
           alt="menu"
           width={1000}
           height={1100}/>
       <Image 
           className="menu"
-          src={"/../../images/16.png"}
+          src={"/senor2taco_images/16.png"}
           alt="menu"
           width={1000}
           height={1100}/>

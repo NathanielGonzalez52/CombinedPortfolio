@@ -3,7 +3,7 @@
 import React, {useState} from 'react'
 import "./Spread.css";
 import FoodDisplay from './FoodDisplay';
-import Food from "./Food.js";
+import Food from "./FoodSenorTaco";
 import {Slide as Slide, Fade as Fade} from "react-awesome-reveal";
 
 export default function Spread() {

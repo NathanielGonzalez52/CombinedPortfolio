@@ -1,0 +1,58 @@
+.terms {
+    padding: 2.5rem 2.5rem;
+}
+
+.terms-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.fa-solid {
+    padding: 1rem 0rem;
+}
+
+.terms-header {
+    text-decoration: underline;
+}
+
+.title {
+    padding: 1rem 0rem;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* .questions {
+    padding: 5rem 5rem;
+} */
+
+.qa-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.ques {
+    font-family: "Dancing Script", cursive;
+    padding: 1rem 1rem;
+}
+
+.ans-ques {
+    text-decoration: underline;
+}
+
+@media screen and (min-width:700px) {
+
+    .terms {
+        text-align: center;
+        justify-content: center;
+        padding: 2.5rem 20rem 3.5rem;
+    }
+
+}

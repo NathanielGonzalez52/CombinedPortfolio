@@ -31,9 +31,9 @@ export default function Contact() {
 
     const {selectedTheme, toggleTheme} = useContext(ThemeContext);
 
-    const light = "/../../images/mail.png";
+    const light = "/images/mail.png";
 
-    const night = "/../../images/mail_white.png";
+    const night = "/images/mail_white.png";
 
 
   return (
@@ -47,7 +47,7 @@ export default function Contact() {
                 src={selectedTheme==="dark" ? night : light}
                 alt="envelope"
                 width={200}
-                height={140}
+                height={165}
               />
             </div>
             <div className="contact-details">

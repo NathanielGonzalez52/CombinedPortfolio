@@ -1,0 +1,54 @@
+.footer {
+    color: #FFF;
+    background-color: #1b2430;
+    font-family: "Dancing Script", cursive;
+}
+
+.logo-f {
+    padding: 1.2rem 0rem;
+    display: flex;
+    width: 100%;
+    background-color: #1b2430;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copyright {
+    color: rgb(145, 145, 145);
+    text-align: center;
+}
+
+.footer path {
+    fill: #FFF;
+}
+
+.social-f {
+    padding: 1.2rem 0rem;
+}
+
+.closing-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: horizontal;
+    font-size: 1.3rem;
+    padding-bottom: 2.5rem;
+}
+
+.f-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+	transition: 1s background-size;
+    
+} 
+
+.f-link:hover {
+    background-size: 100% .1em;
+}
+
+.shop-f {
+    margin: 0rem 0.5rem;
+}

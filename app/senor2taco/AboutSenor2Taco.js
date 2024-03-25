@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import "./About.css";
+import "./AboutSenor2Taco.css";
 import Image from "next/image";
 
 function About() {

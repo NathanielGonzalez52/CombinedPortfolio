@@ -4,7 +4,7 @@ import Deliver from "./Deliver";
 import EmblaCarousel from "./EmblaSlides2";
 import Spread from "./Spread";
 import Map from "./Map";
-import Footer from "./Footer";
+import Footer from "./FooterSenorTaco";
 import Return from "./Return";
 
 

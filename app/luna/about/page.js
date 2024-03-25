@@ -1,22 +1,18 @@
 "use client";
-import React from 'react'
+import React from 'react';
+import "./page.css";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Fade from "react-awesome-reveal";
-import {Dark as DarkVariable} from "../Dark";
-import Toggle from '../Toggle';
+import Image from "next/image";
 import About from "./About";
-
 
 export default function page() {
   return (
     <>
-    <DarkVariable>
-        <Navbar />
-        <About />
-        <Footer />
-    </DarkVariable>
+      <Navbar />
+      <About />
+      <Footer />
     </>
   )
 }
-

@@ -1,0 +1,92 @@
+.shop-greet {
+    font-family: "Dancing Script", cursive;
+    /* padding-top: 5%; */
+    text-align: center;
+    /* padding: none; */
+}
+
+.merch-pics {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product {
+    width: 60%;
+    max-height: 100%;
+    padding: 3%;
+}
+
+.to-shop {
+  font-weight: 600;
+  line-height: 0;
+  font-family: "Dancing Script", cursive;
+  border-radius: 28px;
+  /* background-color: #FFF; */
+  background-color: #fff;
+  color: #000;
+  /* border: none; */
+  /* border:1px solid #000; */
+  text-align: center;
+  font-size: 2rem;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-decoration: underline;
+  }
+  
+/* .to-shop {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  } */
+  
+.to-shop:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.to-shop:hover{
+    /* background-color: #fcfc00; */
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+.to-shop:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+  @media screen and (min-width:700px) {
+
+    .product {
+      width: 30%;
+    }
+
+    .to-shop {
+      margin-left: 42%;
+    }
+
+
+
+    /* .merch-pics {
+      width: 50%;
+      text-align: center;
+      justify-content: center;
+    } */
+
+  }

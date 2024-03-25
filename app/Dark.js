@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState, createContext} from "react";
-import "./dark.css";
+import "./Dark.css";
 
 const ThemeContext = createContext();
 

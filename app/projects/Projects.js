@@ -62,6 +62,7 @@ export default function Projects() {
                     alt="envelope"
                     width={1000}
                     height={380}
+                    priority={true}
                   />
                   <Link className="visit" href="./senor2taco">Visit Me!</Link>
                 </div>

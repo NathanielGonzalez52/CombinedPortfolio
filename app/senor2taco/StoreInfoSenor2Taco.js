@@ -1,4 +1,4 @@
-import "./StoreInfo.css";
+import "./StoreInfoSenor2Taco.css";
 
 function StoreInfo() {
 

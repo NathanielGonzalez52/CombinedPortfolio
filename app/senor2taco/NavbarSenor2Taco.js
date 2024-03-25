@@ -2,8 +2,8 @@
 import { useRouter } from 'next/navigation'
 import React, {useState, useEffect} from 'react';
 import Link from "next/link";
-import "./Navbar.css";
-import { useActivePath } from "./helper";
+import "./NavbarSenor2Taco.css";
+import { useActivePath } from "./HelperSenor2Taco";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -33,7 +33,7 @@ export default function Navbar() {
   return (
     <>
         <nav className="nav-head">
-            <a className="logo-link" href="/">
+            <a className="logo-link" href="/senor2taco">
               <Image
             className="logo"
             src={"/senor2taco_images/senor_taco.png"}
@@ -43,7 +43,7 @@ export default function Navbar() {
             </a>
             <div>
             <ul id="navbar" className={click ? 'navbar active' : 'navbar'}>
-                <li><Link href="/" className={checkActivePath("/") ? 'active' : ''}>
+                <li><Link href="/senor2taco" className={checkActivePath("/senor2taco") ? 'active' : ''}>
                 Home
                 </Link></li>
                 <li><Link href="/menuhome" className={checkActivePath("/menuhome") ? 'active' : ''}>

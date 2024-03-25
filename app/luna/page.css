@@ -1,0 +1,39 @@
+.slider-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.slider {
+    margin-top: 0.1%;
+    width: 85%;
+}
+
+.pic-container {
+    height: 100%;
+}
+
+.pic {
+    width: 100%;
+}
+
+@media screen and (min-width:700px) {
+    .slider-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #000;
+    }
+
+    .slider {
+        margin-top: 0.1%;
+        width: 25%;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}
