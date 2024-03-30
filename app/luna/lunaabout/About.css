@@ -1,0 +1,114 @@
+.top-about {
+  padding: 2.5rem 0rem 0rem 0rem;
+  /* color: red; */
+}
+
+.title {
+  text-decoration: underline;
+  padding: 1rem 0rem;
+}
+
+.about {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+
+.about-header {
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+
+.about-wel {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.about-images {
+  padding: 1rem none;
+  /* justify-content: space-around; */
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.about-text {
+  padding: 0rem 1.5rem;
+}
+
+/* .about-pic {
+  width: 33%;
+} */
+
+.about-pic {
+  padding: 1rem 0rem;
+  width: 35%;
+  height: auto;
+}
+
+.ques {
+  padding: 1rem 0rem;
+}
+
+.faq {
+    font-weight: 600;
+    line-height: 0;
+    font-family: "Dancing Script", cursive;
+    border-radius: 4px;
+    background-color: #FFF;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+  }
+  
+.faq {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    padding-bottom: 2.2rem;
+    /* color: red; */
+  }
+  
+.faq:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.faq:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+.faq:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+@media screen and (min-width: 700px) {
+
+  .about-text {
+    padding: 0rem 6.0rem;
+  }
+
+  .about-pic {
+    padding: 1rem 0rem;
+    max-width: 100%;
+  }
+
+}
+
+
