@@ -14,7 +14,8 @@ export default function home() {
   return (
     <>
     <Navbar/>
-      <Footer />
+    <Sale />
+    <Footer />
   </>
   )
 }
