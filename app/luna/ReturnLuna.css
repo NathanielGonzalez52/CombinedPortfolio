@@ -1,64 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.fa-house {
+    padding-right: 0.6rem;
 }
 
-path {
-    fill: #FFF;
-}
-
-.nav-head {
-    display: flex;
+.nav-head-return {
     position: sticky;
     top:0;
     z-index: +1;
 }
 
-nav {
+.linkk-return:hover {
+    color: #000;
+}
+
+.nav-head-return {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1b2430;
+    background: #595757;
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06); 
-}
-
-#navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#navbar li{
-    list-style: none;
-    padding: 0 20px; 
-    position: relative;
-}
-
-#navbar li a{
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #FFF;
-    transition: 0.3s ease-in-out;
-}
-
-#navbar li a:hover,
-#navbar li a.active{
-    color: #17cf97;
-}
-
-#navbar li a:hover::after,
-#navbar li a.active::after
-{
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: #17cf97;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
 }
 
 #mobile {
@@ -66,11 +26,12 @@ nav {
 }
 
 #mobile i {
-    color: #FFF;
+    color: #000;
     align-items: center;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
+
     #navbar {
         z-index: +2;
         display: flex;
@@ -78,11 +39,11 @@ nav {
         justify-content: flex-start;
         flex-direction: column;
         position: fixed;
-        top: 65px;
+        top: 150px;
         right: -300px;
         width: 300px;
         height: 100vh;
-        background: #1b2430;
+        background: #000;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
@@ -93,7 +54,7 @@ nav {
     }
 
     #navbar li {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 
     #mobile {
@@ -103,5 +64,6 @@ nav {
     #mobile i {
         font-size: 24px;
         cursor: pointer;
+        color: #000;
     }
 }

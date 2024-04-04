@@ -11,17 +11,17 @@ import Footer from "./Footer";
 import Fade from "react-awesome-reveal";
 import Image from 'next/image';
 import ArtDisplay from "./ArtDisplay";
-
-
+// import Return from "./ReturnLuna";
 
 export default function page() {
 
   return (
     <>
-      <Navbar/>
-      <ArtDisplay/>
-      <Update/>
-      <Shop/>
+      {/* <Return /> */}
+      <Navbar />
+      <ArtDisplay />
+      <Update />
+      <Shop />
       <Footer />
     </>
   )
