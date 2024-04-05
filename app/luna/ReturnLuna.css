@@ -10,8 +10,13 @@
     width: 100%;
 }
 
-.linkk-return:hover {
+.linkk-return-luna {
+    transition: 0.8s;
+}
+
+.linkk-return-luna:hover {
     color: #000;
+    transition: 0.8s;
 }
 
 .nav-head-return {
