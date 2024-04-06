@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation'
 import React, {useEffect, useState, useContext} from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import "./ReturnLuna.css";
+import "./ReturnSenor2Taco.css";
 
 export default function Navbar() {
 
@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav-head-return">
-          <a className="linkk-return-luna" href="../projects"><i class="fa-solid fa-rotate-left"></i>Back To The Portfolio</a>
+          <a className="linkk-return-luna" href="../projects"><i class="fa-solid fa-rotate-left"></i>&nbsp;Back To The Portfolio</a>
           {/* <div id="mobile" onClick={handleClick}>
               <i id="bar" className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div> */}
