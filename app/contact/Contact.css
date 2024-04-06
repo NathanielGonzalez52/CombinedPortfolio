@@ -113,6 +113,10 @@ label {
 	top:1px;
 }
 
+.credit {
+    text-align: center;
+}
+
 @media screen and (min-width:700px) {
     .contact-details {
         height: 50vh;

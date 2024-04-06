@@ -8,6 +8,10 @@
     z-index: +1;
 }
 
+.linkk-return {
+    color: #FFF;
+}
+
 .linkk-return:hover {
     color: #000;
 }

@@ -39,6 +39,7 @@
 
 .visit {
     font-family: 'Oswald', sans-serif;
+    color: var(--text_color)
 }
 
 .pic {

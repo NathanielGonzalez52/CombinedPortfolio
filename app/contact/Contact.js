@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react';
 import { ThemeContext } from '../Dark';
-import "./contact.css";
+import "./Contact.css";
 import Toggle from '../Toggle';
 import emailjs from '@emailjs/browser';
 import Image from "next/image";
@@ -65,6 +65,9 @@ export default function Contact() {
                     </div>
                 </form>
             </div>
+        </div>
+        <div className="credit">
+          <a href="https://www.flaticon.com/free-icons/dm" title="dm icons">Dm icons created by rukanicon - Flaticon</a>
         </div>
     </div>
 

@@ -13,6 +13,8 @@
 .linkk-return-luna {
     transition: 0.3s ease-in-out;
     padding-top: 1.3rem;
+    font-weight: 600;
+    color: #FFF;
 }
 
 .linkk-return-luna:hover {

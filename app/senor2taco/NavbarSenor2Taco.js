@@ -46,7 +46,7 @@ export default function Navbar() {
                 <li><Link href="/senor2taco" className={checkActivePath("/senor2taco") ? 'active' : ''}>
                 Home
                 </Link></li>
-                <li><Link href="/menuhome" className={checkActivePath("/menuhome") ? 'active' : ''}>
+                <li><Link href="/senor2taco/menuhome" className={checkActivePath("/senor2taco/menuhome") ? 'active' : ''}>
                 Menu
                 </Link></li>
             </ul>
