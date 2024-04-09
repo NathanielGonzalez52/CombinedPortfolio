@@ -1,5 +1,5 @@
 import React from 'react';
-import "./update.css";
+import "./UpdateFoot.css";
 
 export default function update() {
   return (

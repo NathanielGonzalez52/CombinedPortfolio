@@ -1,5 +1,5 @@
 import React from 'react'
-import "./shop.css";
+import "./Shop.css";
 import Fade from "react-awesome-reveal";
 
 

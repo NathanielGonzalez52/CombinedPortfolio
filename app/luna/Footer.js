@@ -1,6 +1,6 @@
 import React from 'react'
 import Socials from "./Socials";
-import "./footer.css";
+import "./Footer.css";
 import UpdateFoot from "./UpdateFoot";
 
 

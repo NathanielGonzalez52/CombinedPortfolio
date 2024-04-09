@@ -1,5 +1,5 @@
 import React from 'react';
-import "./update.css";
+import "./Update.css";
 import Fade from "react-awesome-reveal";
 
 export default function update() {

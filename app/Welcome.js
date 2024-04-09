@@ -1,5 +1,5 @@
 "use client";
-import "./welcome.css"
+import "./Welcome.css"
 import React, { useState, useEffect } from 'react';
 import Type from "./Typing";
 // import Fade from "react-reveal/Fade";
