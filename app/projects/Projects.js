@@ -62,29 +62,28 @@ export default function Projects() {
                     alt="envelope"
                     width={1000}
                     height={380}
-                    priority={true}
                   />
-                  <Link className="visit" href="./senor2taco">Visit Me!</Link>
+                  <a className="visit" href="./senor2taco">Visit Me!</a>
                 </div>
                 <div>
                   <Image 
                     className="pic"
                     src={"/images/SenorTaco_2.png"}
                     alt="art"
-                    width={800}
+                    width={1000}
                     height={380}
                     />
-                  <Link className="visit" href="./senortaco">Visit Me!</Link>
+                  <a className="visit" href="./senortaco">Visit Me!</a>
                 </div>
                 <div>
                   <Image 
                     className="pic"
                     src={"/images/Luna.png"}
                     alt="envelope"
-                    width={800}
+                    width={1000}
                     height={380}
                   />
-                  <Link className="visit" href="./luna">Visit Me!</Link>
+                  <a className="visit" href="./luna">Visit Me!</a>
               </div>
               </Slider>
             </div>
