@@ -134,7 +134,7 @@ nav {
     .logo {
         height: auto;
         width: 8.5rem;
-        background-color: pink;
+        /* background-color: pink; */
     }
 
     .linkk {
@@ -181,7 +181,7 @@ nav {
 
     .logo {
         width: 8.5rem;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 
     .linkk {
@@ -193,7 +193,7 @@ nav {
 @media screen and (max-width: 1300px) and (min-width: 900px) {
 
     .logo {
-        background-color: green;
+        /* background-color: green; */
         width: 8.9rem;
     }
 

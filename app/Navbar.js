@@ -9,9 +9,7 @@ import Image from "next/image";
 
 export default function Navbar() {
 
-  const [isOpen, setIsOpen] = useState(false);
-  const hide = () => setIsOpen(false);
-  const show = () => setIsOpen(true);
+  // const [isOpen, setIsOpen] = useState(false);
 
   const {selectedTheme, toggleTheme} = useContext(ThemeContext);
 
@@ -19,20 +17,46 @@ export default function Navbar() {
 
   const router = useRouter();
 
-  console.log(router.pathname);
+  // console.log(router.pathname);
 
   const [click, setClick] = useState(false);
 
-  useEffect(() => {
-    let handler = () => {
-      setClick(false);
-    };
-
-    document.addEventListener("mousedown", handler);
-  });
-
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const hide = () => setClick(false);
+  const show = () => setClick(true);
+
+  useEffect(() => {
+    const closeDropdown = e => {
+      console.log(e)
+      if (e.srcElement.className === "fas fa-bars" || e.srcElement.className === "fas fa-times") {
+        handleClick;
+        console.log("hello");
+      }
+      else {
+      setClick(false);
+      }
+
+      
+
+      
+    };
+    document.body.addEventListener("click", closeDropdown)
+    return () => document.body.removeEventListener("click", closeDropdown);
+  }, []);
+
+
+  // useEffect(() => {
+  //   let handler = () => {
+  //       setClick(false);
+  //   };
+
+  //   document.addEventListener("mousedown", handler);
+  // });
+
+
+  // const closeMobileMenu = () => setClick(false);
+
+  // const closeMobileMenu = () => setClick(false);
 
   const light = "/images/NG-3.png";
 
@@ -66,7 +90,7 @@ export default function Navbar() {
               Contact Me
               </Link></li>
           </ul>
-          </div>
+          </div>      
 
           <div id="mobile" onClick={handleClick}>
               <i id="bar" className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
