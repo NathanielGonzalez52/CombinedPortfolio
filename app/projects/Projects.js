@@ -93,7 +93,7 @@ export default function Projects() {
                     width={1000}
                     height={380}
                   />
-                  <a className="visit" href="./goldchick">Visit Me!</a>
+                  <a className="visit" href="./goldchicken">Visit Me!</a>
               </div>
               </Slider>
             </div>
