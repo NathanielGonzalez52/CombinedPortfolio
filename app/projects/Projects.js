@@ -59,7 +59,7 @@ export default function Projects() {
                   <Image 
                     className="pic"
                     src={"/images/SenorTaco_1.png"}
-                    alt="envelope"
+                    alt="SenorTaco 1 Webpage"
                     width={1000}
                     height={380}
                   />
@@ -69,7 +69,7 @@ export default function Projects() {
                   <Image 
                     className="pic"
                     src={"/images/SenorTaco_2.png"}
-                    alt="art"
+                    alt="SenorTaco 2 Webpage"
                     width={1000}
                     height={380}
                     />
@@ -79,11 +79,21 @@ export default function Projects() {
                   <Image 
                     className="pic"
                     src={"/images/Luna.png"}
-                    alt="envelope"
+                    alt="Luna Website"
                     width={1000}
                     height={380}
                   />
                   <a className="visit" href="./luna">Visit Me!</a>
+              </div>
+              <div>
+                  <Image 
+                    className="pic"
+                    src={"/images/goldchick.png"}
+                    alt="golden-chicken"
+                    width={1000}
+                    height={380}
+                  />
+                  <a className="visit" href="./goldchick">Visit Me!</a>
               </div>
               </Slider>
             </div>
