@@ -4,7 +4,7 @@ import "./page.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from "./Navbar";
+import Navbar from "./NavbarLuna";
 import Shop from "./Shop";
 import Update from "./Update";
 import Footer from "./Footer";

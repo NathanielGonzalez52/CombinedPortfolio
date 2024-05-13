@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Navbar from "../Navbar";
+import Navbar from "../NavbarLuna";
 import "./page.css";
 import Footer from "../Footer";
 import Fade from "react-awesome-reveal";

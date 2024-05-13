@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import "./About.css";
-import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Fade from "react-awesome-reveal";
 import Image from "next/image";
@@ -72,7 +71,7 @@ export default function About() {
             that are not authorized by me or any agent representing me.</p>
             <div className="about-wel">
               <h2 className="ques">More Questions?</h2>
-              <a href="/qa" className="faq">See our FAQs</a>
+              <a href="/luna/qa" className="faq">See our FAQs</a>
             </div>
           </div>
   

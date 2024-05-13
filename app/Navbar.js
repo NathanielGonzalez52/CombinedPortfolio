@@ -51,9 +51,9 @@ export default function Navbar() {
   // });
 
 
-  // const closeMobileMenu = () => setClick(false);
+  // const closemobile-lunaMenu = () => setClick(false);
 
-  // const closeMobileMenu = () => setClick(false);
+  // const closemobile-lunaMenu = () => setClick(false);
 
   const light = "/images/NG-3.png";
 
@@ -73,7 +73,7 @@ export default function Navbar() {
             {/* <img className="logo" src={selectedTheme === "dark" ? night : light}></img> */}
           </a>
           <div>
-          <ul id="navbar" className={click ? 'navbar active' : 'navbar'}>
+          <ul id="navbar" className={click ? 'navbar-luna active' : 'navbar-luna'}>
               <li><Link href="/" className={checkActivePath("/") ? 'active' : ''}>
               Home
               </Link></li>

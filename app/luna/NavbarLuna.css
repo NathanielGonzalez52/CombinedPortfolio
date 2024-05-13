@@ -24,19 +24,19 @@ nav {
     box-shadow: 0 5px 15px rgba(0,0,0,0.06); 
 }
 
-#navbar {
+#navbar-luna {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#navbar li{
+#navbar-luna li{
     list-style: none;
     padding: 0 20px; 
     position: relative;
 }
 
-#navbar li a{
+#navbar-luna li a{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
@@ -44,13 +44,13 @@ nav {
     transition: 0.3s ease-in-out;
 }
 
-#navbar li a:hover,
-#navbar li a.active{
+#navbar-luna li a:hover,
+#navbar-luna li a.active{
     color: #17cf97;
 }
 
-#navbar li a:hover::after,
-#navbar li a.active::after
+#navbar-luna li a:hover::after,
+#navbar-luna li a.active::after
 {
     content: "";
     width: 30%;
@@ -61,24 +61,24 @@ nav {
     left: 20px;
 }
 
-#mobile {
+#mobile-luna {
     display: none;
 }
 
-#mobile i {
+#mobile-luna i {
     color: #FFF;
     align-items: center;
 }
 
 @media screen and (max-width:900px) {
-    #navbar {
+    #navbar-luna {
         z-index: +2;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         position: fixed;
-        top: 65px;
+        top: 85px;
         right: -300px;
         width: 300px;
         height: 100vh;
@@ -88,19 +88,19 @@ nav {
         transition: 0.3s ease-in-out;
     }
 
-    #navbar.active {
+    #navbar-luna.active {
         right: 0px;
     }
 
-    #navbar li {
+    #navbar-luna li {
         margin-bottom: 25px;
     }
 
-    #mobile {
+    #mobile-luna {
         display: block;
     }
 
-    #mobile i {
+    #mobile-luna i {
         font-size: 24px;
         cursor: pointer;
     }
