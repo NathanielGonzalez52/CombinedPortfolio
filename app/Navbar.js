@@ -35,9 +35,6 @@ export default function Navbar() {
       else {
       setClick(false);
       }
-
-      
-
       
     };
     document.body.addEventListener("click", closeDropdown)
