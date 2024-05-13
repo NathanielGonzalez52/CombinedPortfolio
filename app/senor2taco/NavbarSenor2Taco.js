@@ -21,12 +21,20 @@ export default function Navbar() {
 
   
   useEffect(() => {
-    let handler = () => {
+    const closeDropdown = e => {
+      console.log(e)
+      if (e.srcElement.className === "fas fa-bars" || e.srcElement.className === "fas fa-times") {
+        handleClick;
+        console.log("hello");
+      }
+      else {
       setClick(false);
+      }
+      
     };
-
-    document.addEventListener("mousedown", handler);
-  });
+    document.body.addEventListener("click", closeDropdown)
+    return () => document.body.removeEventListener("click", closeDropdown);
+  }, []);
 
   // <img className="logo" src="../images/senor_taco.png"></img>
 
@@ -42,7 +50,7 @@ export default function Navbar() {
             height={100} />
             </a>
             <div>
-            <ul id="navbar" className={click ? 'navbar active' : 'navbar'}>
+            <ul id="navbar-senor2taco" className={click ? 'navbar active' : 'navbar'}>
                 <li><Link href="/senor2taco" className={checkActivePath("/senor2taco") ? 'active' : ''}>
                 Home
                 </Link></li>
@@ -52,7 +60,7 @@ export default function Navbar() {
             </ul>
             </div>
 
-            <div id="mobile" onClick={handleClick}>
+            <div id="mobile-senor2taco" onClick={handleClick}>
                <i id="bar" className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
         </nav>

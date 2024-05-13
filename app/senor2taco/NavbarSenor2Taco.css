@@ -31,19 +31,19 @@ nav {
     box-shadow: 0 5px 15px rgba(0,0,0,0.06); 
 }
 
-#navbar {
+#navbar-senor2taco {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#navbar li{
+#navbar-senor2taco li{
     list-style: none;
     padding: 0 20px; 
     position: relative;
 }
 
-#navbar li a{
+#navbar-senor2taco li a{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
@@ -52,13 +52,13 @@ nav {
     transition: 0.3s ease-in-out;
 }
 
-#navbar li a:hover,
-#navbar li a.active{
-    color: rgb(204, 95, 95);
+#navbar-senor2taco li a:hover,
+#navbar-senor2taco li a.active{
+    color: rgb(16, 234, 63);
 }
 
-#navbar li a:hover::after,
-#navbar li a.active::after
+#navbar-senor2taco li a:hover::after,
+#navbar-senor2taco li a.active::after
 {
     content: "";
     width: 30%;
@@ -69,25 +69,25 @@ nav {
     left: 20px;
 }
 
-#mobile {
+#mobile-senor2taco {
     display: none;
 }
 
-#mobile i {
+#mobile-senor2taco i {
     color: #000;
     align-items: center;
 }
 
 @media screen and (max-width: 750px) {
 
-    #navbar {
+    #navbar-senor2taco {
         z-index: +2;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         position: fixed;
-        top: 65px;
+        top: 120px;
         right: -300px;
         width: 300px;
         height: 100vh;
@@ -97,19 +97,19 @@ nav {
         transition: 0.3s ease-in-out;
     }
 
-    #navbar.active {
+    #navbar-senor2taco.active {
         right: 0px;
     }
 
-    #navbar li {
+    #navbar-senor2taco li {
         margin-bottom: 25px;
     }
 
-    #mobile {
+    #mobile-senor2taco {
         display: block;
     }
 
-    #mobile i {
+    #mobile-senor2taco i {
         font-size: 24px;
         cursor: pointer;
     }
